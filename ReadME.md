@@ -12,7 +12,8 @@ A **Markdown Previewer** web application built with **React**, **Bootstrap**, an
 
 ## Demo
 
-![Markdown Previewer Screenshot](screenshot.png)  
+![Markdown Previewer Screenshot <img width="644" height="896" alt="Ss1" src="https://github.com/user-attachments/assets/706474e2-f7c5-44b7-ac8b-9b4d8b680533" />
+
 *(Add your screenshot image here)*
 
 ## Technologies Used
@@ -30,3 +31,4 @@ A **Markdown Previewer** web application built with **React**, **Bootstrap**, an
 
 ```bash
 git clone https://github.com/nadishwaragimhana/markdown-previewer.git
+
