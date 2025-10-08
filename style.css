@@ -1,0 +1,90 @@
+body {
+  background-color: #000; /* black background */
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  width: 90%;
+  max-width: 900px;
+}
+
+.editor, .preview {
+  background-color: #1c1c1c; /* dark gray for boxes */
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #fff; /* white text */
+  border: 1px solid #444;
+  box-shadow: 2px 2px 4px rgba(255,255,255,0.2);
+}
+
+.editor-header, .preview-header {
+  background-color: #333; /* slightly lighter gray for header */
+  padding: 5px 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  cursor: default;
+  border-bottom: 1px solid #555;
+}
+
+.editor-header span, .preview-header span {
+  font-size: 14px;
+  color: #fff;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 100px; /* reduced height */
+  border: none;
+  resize: vertical;
+  padding: 10px;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+.preview-content {
+  padding: 10px;
+  min-height: 100px; /* reduced height */
+  background-color: #1c1c1c;
+  color: #fff;
+  white-space: pre-wrap;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 5px 0;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+code {
+  background-color: #333;
+  color: #fff;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+pre {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+blockquote {
+  border-left: 3px solid #fff;
+  padding-left: 10px;
+  color: #fff;
+}
