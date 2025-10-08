@@ -31,6 +31,7 @@ https://markdownpreviewer1.netlify.app/
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/nadishwaragimhana/markdown-previewer.git
+https://github.com/nadishwara/Markdown_Previewer.git
+
 
 
